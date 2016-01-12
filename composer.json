@@ -1,0 +1,30 @@
+{
+    "name": "sintret/util",
+    "description": "Util Wrapper",
+    "keywords": [
+        "pdo",
+        "mysql"
+    ],
+    "homepage": "https://github.com/sintret/php-util",
+    "type": "pdo-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/sintret/php-util/issues",
+        "source": "https://github.com/sintret/php-util"
+    },
+    "authors": [
+        {
+            "name": "Andy Fitria",
+            "homepage": "http://sintret.com"
+        }
+    ],
+    "require": {
+        "php":">=5.4.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "sintret\\util\\": ""
+        }
+    }
+}
